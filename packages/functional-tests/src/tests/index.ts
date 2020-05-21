@@ -92,6 +92,7 @@ export const Factories = {
 	'physics-pile-b.0v2': (...args) => new PhysicsPileTest(0, 100000, 70, 0.0,...args),
 	'physics-pile-b.0v3': (...args) => new PhysicsPileTest(0, -1, 50, 0.2,...args),
 	'physics-sim': (...args) => new PhysicsSimTest(...args),
+	'physics-stack-0 box': (...args) => new PhysicsStackTest(0, 0.5, false, ...args),
 	'physics-stack-2 boxes': (...args) => new PhysicsStackTest(2, 0.5, false, ...args),
 	'physics-stack-2 boxes mix': (...args) => new PhysicsStackTest(2, 0.5, true, ...args),
 	'physics-stack-2 large boxes mix': (...args) => new PhysicsStackTest(2, 1.0, true, ...args),
