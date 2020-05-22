@@ -49,8 +49,8 @@ export default class PhysicsStackTest extends Test {
 				this.createCube(root, this.boxSize, new Vector3(1.2, this.boxSize * 0.5, -1),
 					this.app.context.users[i].id, this.materials[i]);
 			} else if (i === 1) {
-				//this.createCube(root, this.boxSize, new Vector3(-1.2, this.boxSize * 0.5, -1),
-				//	this.app.context.users[i].id, this.materials[i]);
+				this.createCube(root, this.boxSize, new Vector3(-1.2, this.boxSize * 0.5, -1),
+					this.app.context.users[i].id, this.materials[i]);
 			}
 		}
 
